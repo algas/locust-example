@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+docker run --rm -p 8888:8888 -w /work -v `pwd`:/work -it python:3-alpine python3 -m http.server 8888
